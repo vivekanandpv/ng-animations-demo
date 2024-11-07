@@ -1,0 +1,17 @@
+<h4>User Information</h4>
+<button class="btn btn-primary my-4" type="button" (click)="toggle()">
+  Active-Inactive Toggle
+</button>
+
+<div
+  class="card open-close-container"
+  [@inactiveActive]="active() ? 'active' : 'inactive'"
+>
+  <div class="card-body">
+    This user is now @if (active()) {
+    <span class="fw-bold">Active</span>
+    } @else {
+    <span class="fw-bold">Inactive</span>
+    }
+  </div>
+</div>

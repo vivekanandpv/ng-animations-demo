@@ -1,0 +1,11 @@
+:host {
+    display: block;
+    margin-top: 1rem;
+}
+
+.open-close-container {
+    border: 1px solid #dddddd;
+    color: #000000;
+    font-weight: bold;
+    font-size: 20px;
+}
